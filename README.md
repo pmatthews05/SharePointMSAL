@@ -14,7 +14,7 @@ A console application using MSAL and .NET Core to connect to SharePoint Online.
 - Grant Application permissions for SharePoint > Sites.FullControl.All
 
 This has been automated in a PowerShell Script.
-In the [PowerShell folder](../Powershell/Install-AzureEnvironment.ps1) run the .\install-AzureEnvironment.ps1 
+In the [PowerShell folder](PowerShell/Install-AzureEnvironment.ps1) run the .\install-AzureEnvironment.ps1 
 
 ```ps1
 az login
