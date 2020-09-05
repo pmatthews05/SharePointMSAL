@@ -21,6 +21,7 @@ az login
 .\Install-AzureEnvironment.ps1 -Environment:<TenantName> -Name:SharePointMSAL
 ```
 This will create the following in your environment if your TenantName is Contso
+- <b>Resource Group</b>: Consto-SharePointMSAL
 - <b>App Registration</b>: Contso-SharePointMSAL, granted with SharePoint > Sites.FullControl.All
 - <b>Key Vault</b>: Contso-SharePointMSAL (<i>Note:Will be truncated to 24 characters if longer</i>)
 - <b>CertificateName stored in KeyVault as</b>: Contso-SharePointMSAL
