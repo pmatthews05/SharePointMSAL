@@ -13,10 +13,8 @@ A console application using MSAL and .NET Core to connect to SharePoint Online.
 - Store the ClientID in the KeyVault Secrets 
 - Grant Application permissions for SharePoint > Sites.FullControl.All
 
-https://github.com/pmatthews05/SharePointMSAL/tree/master/PowerShell
-
 This has been automated in a PowerShell Script.
-In the [PowerShell folder](Powershell) run the .\install-AzureEnvironment.ps1 
+In the [PowerShell folder](../Powershell/Install-AzureEnvironment.ps1) run the .\install-AzureEnvironment.ps1 
 
 ```ps1
 az login
